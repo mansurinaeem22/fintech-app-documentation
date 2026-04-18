@@ -111,10 +111,38 @@ This documentation demonstrates:
 * Structured content design
 
 ---
+## 📊 User Flow (Simplified)
+
+User Journey:
+
+1. Register account
+2. Add bank details
+3. Send money
+4. Receive confirmation
+5. View transaction history
+
+👉 Designed for smooth onboarding experience
+
+---
+
+## 🎯 Real-World Impact
+
+This documentation helps:
+
+* Reduce user confusion
+* Improve onboarding speed
+* Minimize support queries
+
+---
+
+## 🧠 What Makes This Strong
+
+* Combines user guide + API docs
+* Focuses on real user actions
+* Structured for quick understanding
+
 
 ## 👤 Author
 
 Naeem Mansuri
 Software Technical Writer @ Cognizant
-
----
