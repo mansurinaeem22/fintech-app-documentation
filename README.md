@@ -243,8 +243,37 @@ This documentation helps:
 * Focuses on real user actions
 * Structured for quick understanding
 
+## 🧠 Challenges Faced
+
+- Users fail transactions due to unclear steps  
+- Lack of clarity in error messages  
+- No visibility into transaction flow  
+
+---
+
+## 🛠️ Decisions Made
+
+- Introduced step-by-step transaction lifecycle  
+- Added real-world failure scenario  
+- Simplified API representation  
+
+---
+
+## 📈 Impact
+
+- Reduced user confusion  
+- Improved onboarding clarity  
+- Better understanding of transaction flow  
 
 
+## 💡 Why This Documentation Matters
+
+Clear documentation in fintech systems:
+
+- Reduces transaction errors  
+- Improves user trust  
+- Decreases support queries  
+- Enhances overall product experience  
 
 ## 👤 Author
 
