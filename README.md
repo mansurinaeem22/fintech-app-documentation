@@ -106,35 +106,46 @@ The application allows users to:
 
 ## 🔌 API Documentation
 
-### Endpoint: /transfer
+### Endpoint: /login  
+**Method:** POST  
 
-**Method:** POST
-
-### Request:
-
+Request:
 {
-"sender_id": "123",
-"receiver_id": "456",
-"amount": 500
+  "mobile": "string",
+  "otp": "1234"
 }
 
-### Response:
-
+Response:
 {
-"status": "success",
-"transaction_id": "TXN789"
+  "status": "success",
+  "token": "abc123"
 }
 
 ---
 
-## ⚠️ Error Handling
+### Endpoint: /balance  
+**Method:** GET  
 
-| Code | Meaning      |
-| ---- | ------------ |
-| 400  | Bad Request  |
-| 401  | Unauthorized |
-| 500  | Server Error |
+Response:
+{
+  "balance": 5000
+}
 
+---
+
+### Endpoint: /transaction-history  
+**Method:** GET  
+
+Response:
+{
+  "transactions": [
+    {
+      "id": "TXN123",
+      "amount": 500,
+      "status": "success"
+    }
+  ]
+}
 ---
 
 ## 🧠 Documentation Strategy
