@@ -41,7 +41,7 @@ It demonstrates how technical writing improves:
 * API-driven payment processing
 
 
-## 🔄 System Flow (Simplified)
+## 🔄 System Flow (Transaction Lifecycle)
 
 1. User initiates transaction
 2. System validates user & balance
