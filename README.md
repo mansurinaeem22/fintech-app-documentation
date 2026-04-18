@@ -211,5 +211,5 @@ This documentation helps:
 
 ## 👤 Author
 
-Naeem Mansuri
+Naeem Mansuri | 
 Software Technical Writer @ Cognizant
