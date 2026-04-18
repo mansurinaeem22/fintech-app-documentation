@@ -148,6 +148,29 @@ Response:
 }
 ---
 
+
+## ⚠️ Error Handling
+
+### Common Errors
+
+| Code | Meaning | Solution |
+|------|--------|---------|
+| 400  | Bad Request | Validate input |
+| 401  | Unauthorized | Re-login |
+| 500  | Server Error | Retry after some time |
+
+---
+
+### Retry Mechanism
+
+- Allow users to retry failed transactions  
+- Show clear error messages  
+- Maintain transaction logs  
+
+👉 Improves reliability and user trust
+
+
+
 ## 🧠 Documentation Strategy
 
 * Task-based structure
