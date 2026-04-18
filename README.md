@@ -14,11 +14,13 @@ Created structured documentation combining:
 * API documentation
 * Workflow explanations
 
-### 🎯 Outcome
+## 🎯 Outcome
 
 * Improved clarity for onboarding users
 * Reduced confusion in transactions
 * Created scalable documentation structure
+
+
 
 ## 🚀 Overview
 
@@ -29,6 +31,26 @@ It demonstrates how technical writing improves:
 * User onboarding
 * Feature clarity
 * System usability
+
+## ⚙️ Key Features
+
+* Secure user authentication
+* Real-time money transfer
+* Transaction history tracking
+* Error handling and retry mechanisms
+* API-driven payment processing
+
+
+## 🔄 System Flow (Simplified)
+
+1. User initiates transaction
+2. System validates user & balance
+3. API processes payment request
+4. Transaction status returned
+5. User receives confirmation
+
+👉 Ensures smooth and traceable transaction lifecycle
+
 
 ---
 
