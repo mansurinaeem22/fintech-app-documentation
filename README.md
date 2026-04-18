@@ -1,5 +1,25 @@
 # 💳 Fintech App Documentation
 
+## 🧩 Case Study: Fintech App Documentation
+
+### 🧠 Problem
+
+Users struggle with understanding digital payment workflows and transaction steps.
+
+### 💡 Solution
+
+Created structured documentation combining:
+
+* User guides
+* API documentation
+* Workflow explanations
+
+### 🎯 Outcome
+
+* Improved clarity for onboarding users
+* Reduced confusion in transactions
+* Created scalable documentation structure
+
 ## 🚀 Overview
 
 This project simulates real-world documentation for a **digital payments fintech application**.
