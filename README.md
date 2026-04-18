@@ -1,47 +1,59 @@
 # 💳 Fintech Payments Application Documentation
 
-## 🧩 Case Study: Fintech App Documentation
+<p align="center">
+  <img src="flow.png" width="90%">
+</p>
 
-### 🧠 Problem
+<p align="center">
+  <b>Simplifying digital transactions through clear, structured documentation</b><br>
+  API • User Guides • Transaction Workflows
+</p>
 
-Users struggle with understanding digital payment workflows and transaction steps.
+---
 
-### 💡 Solution
+## 🚀 Featured Overview
 
-Created structured documentation combining:
+This project simulates real-world fintech documentation for a **digital payments system**, focusing on reducing user confusion and improving transaction clarity.
 
-* User guides
-* API documentation
-* Workflow explanations
+---
 
-## 🎯 Outcome
+## 💡 Problem
 
-* Improved clarity for onboarding users
-* Reduced confusion in transactions
-* Created scalable documentation structure
+Users struggle to understand:
 
+* Transaction steps
+* Payment status updates
+* Error messages during failures
 
+This leads to:
 
-## 🚀 Overview
+* Failed transactions
+* User frustration
+* Increased support queries
 
-This project simulates real-world documentation for a **digital payments fintech application**.
+---
 
-It demonstrates how technical writing improves:
+## ⚙️ Solution
 
-* User onboarding
-* Feature clarity
-* System usability
+Designed structured documentation that includes:
 
-## ⚙️ Key Features
+* 📘 Step-by-step **user guides**
+* 🔌 Clear **API documentation**
+* 🔄 End-to-end **transaction lifecycle**
+* ⚠️ Real-world **error handling scenarios**
 
-* Secure user authentication
-* Real-time money transfer
-* Transaction history tracking
-* Error handling and retry mechanisms
-* API-driven payment processing
+---
 
+## 📊 Impact
 
-## 🔄 System Flow (Transaction Lifecycle)
+* ✔ Improved onboarding clarity
+* ✔ Reduced confusion in transactions
+* ✔ Created scalable documentation structure
+* ✔ Better understanding of system flow
+
+---
+
+## 🔄 Transaction Lifecycle (Simplified)
 
 1. User initiates transaction
 2. System validates user & balance
@@ -49,17 +61,19 @@ It demonstrates how technical writing improves:
 4. Transaction status returned
 5. User receives confirmation
 
-👉 Ensures reliable, secure, and traceable transaction lifecycle for end users
+👉 Ensures reliable, secure, and traceable payment flow
 
-
-
-
-## 📊 Transaction Flow Diagram
-
-![Transaction Flow](flow.png)
 ---
 
-## 🧭 Product Description
+## 🧭 System Flow Diagram
+
+<p align="center">
+  <img src="flow.png" width="85%">
+</p>
+
+---
+
+## 📘 Product Capabilities
 
 The application allows users to:
 
@@ -70,7 +84,7 @@ The application allows users to:
 
 ---
 
-## 👥 Target Users
+## 🎯 Target Users
 
 * General users
 * First-time digital payment users
@@ -78,67 +92,56 @@ The application allows users to:
 
 ---
 
-## 📘 User Guide
+## 📡 API Documentation
 
-### 🔐 Account Registration
+### 🔐 Login
 
-1. Open the app
-2. Enter mobile number
-3. Verify OTP
-4. Set password
+**Endpoint:** `/login`
+**Method:** POST
 
----
+**Request:**
 
-### 💸 Send Money
-
-1. Select "Send Money"
-2. Enter recipient details
-3. Enter amount
-4. Confirm transaction
-
----
-
-### 📊 Transaction History
-
-* View all past transactions
-* Filter by date
-* Download reports
-
----
-
-## 🔌 API Documentation
-
-### Endpoint: /login  
-**Method:** POST  
-
-Request:
+```json
 {
   "mobile": "string",
   "otp": "1234"
 }
+```
 
-Response:
+**Response:**
+
+```json
 {
   "status": "success",
   "token": "abc123"
 }
+```
 
 ---
 
-### Endpoint: /balance  
-**Method:** GET  
+### 💰 Check Balance
 
-Response:
+**Endpoint:** `/balance`
+**Method:** GET
+
+**Response:**
+
+```json
 {
   "balance": 5000
 }
+```
 
 ---
 
-### Endpoint: /transaction-history  
-**Method:** GET  
+### 📜 Transaction History
 
-Response:
+**Endpoint:** `/transaction-history`
+**Method:** GET
+
+**Response:**
+
+```json
 {
   "transactions": [
     {
@@ -148,144 +151,50 @@ Response:
     }
   ]
 }
----
+```
 
+---
 
 ## ⚠️ Error Handling
 
-### Common Errors
-
-| Code | Meaning | Solution |
-|------|--------|---------|
-| 400  | Bad Request | Validate input |
-| 401  | Unauthorized | Re-login |
+| Code | Meaning      | Solution              |
+| ---- | ------------ | --------------------- |
+| 400  | Bad Request  | Validate input        |
+| 401  | Unauthorized | Re-login              |
 | 500  | Server Error | Retry after some time |
 
 ---
 
-### Retry Mechanism
+## 🔁 Retry Mechanism
 
-- Allow users to retry failed transactions  
-- Show clear error messages  
-- Maintain transaction logs  
+If a transaction fails:
 
-👉 Improves reliability and user trust
-
-
-
-## 🧠 Documentation Strategy
-
-* Task-based structure
-* Clear step-by-step instructions
-* Scannable formatting
-* Real-world usability focus
+* System retries automatically
+* User receives updated status
+* Ensures transaction reliability
 
 ---
 
-## 🎯 Value
+## ✨ What Makes This Documentation Strong
 
-This documentation demonstrates:
-
-* End-to-end product understanding
-* User-focused writing
-* API + user guide integration
-* Structured content design
+* Combines **user guide + API docs**
+* Focuses on **real user problems**
+* Structured for **quick understanding**
+* Covers **complete transaction lifecycle**
 
 ---
 
-## ⚠️ Real-World Scenario: Failed Transaction
+## 🧠 Key Learnings
 
-### Issue
-
-User initiates payment but transaction fails.
-
-### Possible Reasons
-
-* Insufficient balance
-* Network failure
-* Server timeout
-
-### Solution Steps
-
-1. Check account balance
-2. Retry transaction
-3. Verify network connection
-4. Contact support if issue persists
-
-👉 Helps reduce support queries and improves user trust
+* Clear documentation reduces product friction
+* Structured flows improve usability
+* Error clarity builds user trust
 
 ---
-## 📊 User Flow (Simplified)
-
-User Journey:
-
-1. Register account
-2. Add bank details
-3. Send money
-4. Receive confirmation
-5. View transaction history
-
-👉 Designed for smooth onboarding experience
-
----
-
-## 🎯 Real-World Impact
-
-This documentation helps:
-
-* Reduce user confusion
-* Improve onboarding speed
-* Minimize support queries
-
----
-
-## 🧠 What Makes This Strong
-
-* Combines user guide + API docs
-* Focuses on real user actions
-* Structured for quick understanding
-
-## 🧠 Challenges Faced
-
-- Users fail transactions due to unclear steps  
-- Lack of clarity in error messages  
-- No visibility into transaction flow  
-
----
-
-## 🛠️ Decisions Made
-
-- Introduced step-by-step transaction lifecycle  
-- Added real-world failure scenario  
-- Simplified API representation  
-
----
-
-## 📈 Impact
-
-- Reduced user confusion  
-- Improved onboarding clarity  
-- Better understanding of transaction flow
-
-
-
-## 💡 Why This Documentation Matters
-
-Effective documentation in fintech systems plays a critical role in:
-
-- Reduces transaction errors  
-- Improves user trust  
-- Decreases support queries  
-- Enhances overall product experience  
 
 ## 👤 Author
 
-Naeem Mansuri | 
+**Naeem Mansuri**
 Software Technical Writer @ Cognizant
 
-
 ---
-
-## 🚀 Final Note
-
-This project reflects my approach to building documentation that is not just informative, but also improves real user experience and system understanding.
