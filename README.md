@@ -268,7 +268,7 @@ This documentation helps:
 
 ## 💡 Why This Documentation Matters
 
-Clear documentation in fintech systems:
+Effective documentation in fintech systems plays a critical role in:
 
 - Reduces transaction errors  
 - Improves user trust  
