@@ -131,6 +131,29 @@ This documentation demonstrates:
 * Structured content design
 
 ---
+
+## ⚠️ Real-World Scenario: Failed Transaction
+
+### Issue
+
+User initiates payment but transaction fails.
+
+### Possible Reasons
+
+* Insufficient balance
+* Network failure
+* Server timeout
+
+### Solution Steps
+
+1. Check account balance
+2. Retry transaction
+3. Verify network connection
+4. Contact support if issue persists
+
+👉 Helps reduce support queries and improves user trust
+
+---
 ## 📊 User Flow (Simplified)
 
 User Journey:
