@@ -49,7 +49,7 @@ It demonstrates how technical writing improves:
 4. Transaction status returned
 5. User receives confirmation
 
-👉 Ensures smooth and traceable transaction lifecycle
+👉 Ensures reliable, secure, and traceable transaction lifecycle for end users
 
 
 ---
