@@ -1,4 +1,4 @@
-# # 💳 Fintech Payments Application Documentation
+# 💳 Fintech Payments Application Documentation
 
 ## 🧩 Case Study: Fintech App Documentation
 
