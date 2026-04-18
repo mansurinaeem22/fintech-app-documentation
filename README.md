@@ -263,7 +263,8 @@ This documentation helps:
 
 - Reduced user confusion  
 - Improved onboarding clarity  
-- Better understanding of transaction flow  
+- Better understanding of transaction flow
+
 
 
 ## 💡 Why This Documentation Matters
