@@ -11,13 +11,13 @@
 
 ---
 
-## 🚀 Featured Overview
+## Featured Overview
 
 This project simulates real-world fintech documentation for a **digital payments system**, focusing on reducing user confusion and improving transaction clarity.
 
 ---
 
-## 💡 Problem
+## Problem
 
 Users struggle to understand:
 
@@ -33,18 +33,18 @@ This leads to:
 
 ---
 
-## ⚙️ Solution
+## Solution
 
 Designed structured documentation that includes:
 
-* 📘 Step-by-step **user guides**
-* 🔌 Clear **API documentation**
-* 🔄 End-to-end **transaction lifecycle**
-* ⚠️ Real-world **error handling scenarios**
+* Step-by-step **user guides**
+* Clear **API documentation**
+* End-to-end **transaction lifecycle**
+* Real-world **error handling scenarios**
 
 ---
 
-## 📊 Impact
+## Impact
 
 * ✔ Improved onboarding clarity
 * ✔ Reduced confusion in transactions
@@ -53,7 +53,7 @@ Designed structured documentation that includes:
 
 ---
 
-## 🔄 Transaction Lifecycle (Simplified)
+## Transaction Lifecycle (Simplified)
 
 1. User initiates transaction
 2. System validates user & balance
@@ -61,11 +61,11 @@ Designed structured documentation that includes:
 4. Transaction status returned
 5. User receives confirmation
 
-👉 Ensures reliable, secure, and traceable payment flow
+ Ensures reliable, secure, and traceable payment flow
 
 ---
 
-## 🧭 System Flow Diagram
+## System Flow Diagram
 
 <p align="center">
   <img src="flow.png" width="85%">
@@ -73,7 +73,7 @@ Designed structured documentation that includes:
 
 ---
 
-## 📘 Product Capabilities
+## Product Capabilities
 
 The application allows users to:
 
@@ -84,7 +84,7 @@ The application allows users to:
 
 ---
 
-## 🎯 Target Users
+## Target Users
 
 * General users
 * First-time digital payment users
@@ -92,9 +92,9 @@ The application allows users to:
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
-### 🔐 Login
+### Login
 
 **Endpoint:** `/login`
 **Method:** POST
@@ -119,7 +119,7 @@ The application allows users to:
 
 ---
 
-### 💰 Check Balance
+### Check Balance
 
 **Endpoint:** `/balance`
 **Method:** GET
@@ -134,7 +134,7 @@ The application allows users to:
 
 ---
 
-### 📜 Transaction History
+### Transaction History
 
 **Endpoint:** `/transaction-history`
 **Method:** GET
@@ -155,7 +155,7 @@ The application allows users to:
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 | Code | Meaning      | Solution              |
 | ---- | ------------ | --------------------- |
@@ -165,7 +165,7 @@ The application allows users to:
 
 ---
 
-## 🔁 Retry Mechanism
+## Retry Mechanism
 
 If a transaction fails:
 
@@ -175,7 +175,7 @@ If a transaction fails:
 
 ---
 
-## ✨ What Makes This Documentation Strong
+## What Makes This Documentation Strong
 
 * Combines **user guide + API docs**
 * Focuses on **real user problems**
@@ -184,7 +184,7 @@ If a transaction fails:
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Clear documentation reduces product friction
 * Structured flows improve usability
